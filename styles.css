@@ -1,1 +1,9 @@
-.Cabecalho{background-color: rgb(0, 175, 245);}
+.cabecalho{background-color: rgb(0, 175, 245);
+display: flex;
+padding: 30px;
+font-size: 24px;
+justify-content: space-around};
+
+.cabecalho-imagem{
+    width: 100px;
+    height: 100px;}
