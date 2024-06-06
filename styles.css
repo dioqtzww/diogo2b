@@ -1,17 +1,24 @@
- 
+   
+
+   /*SELETOR UNIVERSAL*/
+  *{ margin: 0px;
+    padding: 0px;
+  }
+
+
    /*CORPO DA PAGINA*/
     body{  font-family: sans-serif;
     }
     
     /*SEÇÃO CABEÇALHO*/
-     .cabecalho{background-color: rgb(158, 160, 161);
+     .cabecalho{background-color: rgba(6, 19, 95, 0.705);
     display: flex;
     padding: 30px;
     font-size: 24px;
     justify-content:space-around; }
 
     .cabecalho{
-     background-color: gray;
+     background-color: rgba(6, 19, 95, 0.705)
      display: flex;
      padding: 30px;
      font-size: 24px;
@@ -31,7 +38,7 @@
 
     /*SEÇÃO TURMA*/
 
-    .turma {background-image: linear-gradient(rgba(58, 57, 57, 0.411), rgb(34, 29, 29));
+    .turma {background-image: linear-gradient(rgba(6, 19, 95, 0.705), rgba(182,))
     }
      
 
@@ -54,7 +61,7 @@
 
 
     /*SEÇÃO ESTUDANTE*/
-    .estudante{background-image: linear-gradient(  gray, rgb(53, 44, 44));
+    .estudante{background-image: linear-gradient(rgba(6,19,95,0.705), rgb(53, 44, 44));
 
     }
 
